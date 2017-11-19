@@ -171,7 +171,7 @@ exports.handler = function(event, context) {
             "actions": [{
               "type": "uri",
               "label": "詳細を確認",
-              "uri": 'http://www.oas.co.jp'
+              "uri": ''
             }]
           });
     	columns.push({
@@ -181,7 +181,7 @@ exports.handler = function(event, context) {
           "actions": [{
             "type": "uri",
             "label": "詳細を確認",
-            "uri": 'http://www.oas.co.jp'
+            "uri": ''
           }]
         });
 
