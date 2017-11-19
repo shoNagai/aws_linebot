@@ -31,7 +31,6 @@ exports.handler = function(event, context) {
         receive_id = param.events[0].source.groupId;
     }
 
-    // @TODO KMSで管理
     var docomo_apiKey = config.docomo_apiKey;
     var docomo_options = {
         url: 'https://api.apigw.smt.docomo.ne.jp/dialogue/v1/dialogue?APIKEY=' + docomo_apiKey,
@@ -42,7 +41,6 @@ exports.handler = function(event, context) {
         json: true
     };
 
-    // @TODO KMSで管理
     var line_channelAccessToken = config.line_channelAccessToken;
     // paramater準備
     var line_options = {
